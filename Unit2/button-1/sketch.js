@@ -10,12 +10,12 @@ function draw() {
 switch (state) {
   case 0:
     background("red");
-    text ("why did the chx", width / 2, height / 2,);
+    text ("I tried to catch fog yesterday...", width / 2, height / 2,);
 break;
 
   case 1:
     background("blue");
-    text ("because", width / 2, height / 2);
+    text ("Mist", width / 2, height / 2);
 break;
   }
 
