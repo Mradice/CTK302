@@ -1,21 +1,30 @@
 let state = 0;
 let timer = 0;
+let f1, f2, f3 ;
+
 
 function setup() {
   createCanvas(500, 500);
-  textAlign(CENTER);
+  f1 = loadFont("assets/BluePrinted.ttf") ;
+  f2 = loadFont("assets/KosovoTarget.ttf") ;
+  f3 = loadFont("assets/PokemonHollow.ttf") ;
+  textAlign(CENTER) ;
 }
 
 function draw() {
 switch (state) {
 case 0:
 background("red");
-text ("why did the chx", width / 2, height / 2,);
+textFont(f3,25);
+fill("white");
+text ("why do cows wear bells?", width / 2, height / 2,);
 break;
 
 case 1:
 background("blue");
-text ("because", width / 2, height / 2);
+textFont(f3,25);
+fill("white");
+text ("because their horns dont work.", width / 2, height / 2);
 break;
   }
 

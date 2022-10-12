@@ -5,6 +5,7 @@ function preload(){
   s1 = loadSound("assets/hipjazz.mp3");
   s2 = loadSound("assets/funkysuspense.mp3");
   s3 = loadSound("assets/jazzyfrenchy.mp3");
+
 }
 
 function setup() {
@@ -12,29 +13,33 @@ function setup() {
 }
 
 function draw() {
-  background(100);
+  
   
   switch (state) {
     case -1:
-      text("please click to start", 100, 100);
+      background(200);
+      text("Please click to start", 100, 100);
     break;
 
     case 0:
-      text("0", 100, 100);
+      background(65, 56, 168);
+      text("Song, Hip Jazz.", 100, 100);
       if (!s1.isPlaying() ){
         s1.play();
       }
       break;
 
     case 1:
-      text("1", 100, 100);
+      background(106, 168, 230);
+      text("Song, Funky Suspense.", 100, 100);
       if (!s2.isPlaying() ){
         s2.play();
       }
       break;
 
     case 2:
-      text("2", 100, 100);
+      background(130, 181, 161);
+      text("Song, Jazzy Frenchy.", 100, 100);
       if (!s3.isPlaying() ){
         s3.play();
       }
