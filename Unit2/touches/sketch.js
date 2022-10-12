@@ -22,17 +22,16 @@ function draw() {
       case 1: 
        text("it's kind of lonely here", 5, 22) ; 
        image(i1, width/2, height/2 - 120, 100, 100) ;
-      // put a picture here change text to your own words
       break ;
       
       case 2:
-      text("two fingers are touching the screen", 5, 22) ; 
-            // put a picture here
+      text("Two fingers on the screen!", 5, 22) ; 
+      image(i2, width/2, height/2 - 120, 100, 100) ;
       break ;
       
       case 3:
-     text("three are touching the screen", 5, 22) ; 
-            // put a picture here
+     text("Clean your phone!", 5, 22) ; 
+     image(i3, width/2, height/2 - 120, 100, 100) ;
       break ;
     
       
