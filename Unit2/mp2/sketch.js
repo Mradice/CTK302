@@ -3,7 +3,7 @@ let timer = 0;
 let i1, i2, i3 ;
 
 function setup() {
-  createCanvas(550, 800);
+  createCanvas(510, 800);
   i1 = loadImage("assets/pic.jpeg") ;
   i2 = loadImage("assets/pic2.jpeg") ;
   i3 = loadImage("assets/pic3.jpeg") ;
